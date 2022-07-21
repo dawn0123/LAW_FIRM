@@ -1,0 +1,55 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "O.#####",
+ "creation": "2022-07-04 16:00:56.483697",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "contact_no",
+  "practice_area",
+  "no_of_cases_won",
+  "no_of_cases_lost"
+ ],
+ "fields": [
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Contact No"
+  },
+  {
+   "fieldname": "practice_area",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Practice Area",
+   "oldfieldname": "Practice Area"
+  },
+  {
+   "default": "0.0",
+   "fieldname": "no_of_cases_won",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "No of Cases won"
+  },
+  {
+   "default": "0.0",
+   "fieldname": "no_of_cases_lost",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "No of Cases lost"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-04 17:24:51.142905",
+ "modified_by": "Administrator",
+ "module": "Law Management",
+ "name": "Opposition",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

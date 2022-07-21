@@ -1,0 +1,136 @@
+{
+ "cards_label": "",
+ "category": "Modules",
+ "charts": [],
+ "creation": "2022-07-04 15:41:55.899609",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "icon": "",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "label": "Law Management",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Configurations",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Categories",
+   "link_to": "Categories",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Judge Details",
+   "link_to": "Judge Details",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Practice Area",
+   "link_to": "Practice Area",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Degrees",
+   "link_to": "Degrees",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Institutes",
+   "link_to": "Institutes",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Universities",
+   "link_to": "Universities",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Client Services",
+   "link_to": "Client Services",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Court",
+   "link_to": "Court",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2022-07-13 10:32:10.530323",
+ "modified_by": "Administrator",
+ "module": "Law Management",
+ "name": "Law Management",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": [
+  {
+   "doc_view": "List",
+   "label": "Client Request",
+   "link_to": "Client Request",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Matter",
+   "link_to": "Matter",
+   "type": "DocType"
+  },
+  {
+   "doc_view": "List",
+   "label": "Lawyer",
+   "link_to": "Customer",
+   "stats_filter": "{\n    \"is_lawyer\": [\"!=\" , [\"0\"]]\n}\n",
+   "type": "DocType"
+  },
+  {
+   "color": "",
+   "doc_view": "List",
+   "label": "Client",
+   "link_to": "Customer",
+   "stats_filter": "{\n    \"is_client\": [\"!=\" , [\"0\"]]\n}\n",
+   "type": "DocType"
+  }
+ ],
+ "shortcuts_label": "Law Management"
+}

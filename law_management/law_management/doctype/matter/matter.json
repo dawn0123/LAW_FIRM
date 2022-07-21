@@ -1,0 +1,232 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Matter.#####",
+ "creation": "2022-07-04 15:32:47.286047",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "matter_name",
+  "matter_type",
+  "category",
+  "assign_to",
+  "practice_area",
+  "column_break_6",
+  "client_name",
+  "payment_type",
+  "important_dates",
+  "description",
+  "matter_details_section",
+  "date",
+  "attack_type",
+  "victims",
+  "perpetrators",
+  "suspects",
+  "documents_section",
+  "attachments",
+  "description_doc",
+  "acts_and_articles_section",
+  "acts",
+  "article",
+  "opposition_lawyer_section",
+  "opposition_lawyer",
+  "contact_person_details_section",
+  "contact_person_details",
+  "history_section",
+  "history"
+ ],
+ "fields": [
+  {
+   "fieldname": "matter_name",
+   "fieldtype": "Data",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Matter Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "matter_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Matter Type",
+   "options": "Criminal\nCivil"
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Link",
+   "label": "Category",
+   "options": "Categories"
+  },
+  {
+   "fieldname": "assign_to",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Assign to",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "practice_area",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Practice Area",
+   "options": "Practice Area"
+  },
+  {
+   "fieldname": "client_name",
+   "fieldtype": "Link",
+   "label": "Client Name",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "payment_type",
+   "fieldtype": "Select",
+   "label": "Payment Type",
+   "options": "By Hour\nBy Trial\nBy Fixed"
+  },
+  {
+   "fieldname": "important_dates",
+   "fieldtype": "Date",
+   "in_standard_filter": 1,
+   "label": "Important Dates"
+  },
+  {
+   "fieldname": "description",
+   "fieldtype": "Long Text",
+   "label": "Description"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "matter_details_section",
+   "fieldtype": "Section Break",
+   "label": "Matter Details"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Date",
+   "label": "Date"
+  },
+  {
+   "fieldname": "attack_type",
+   "fieldtype": "Data",
+   "label": "Attack Type"
+  },
+  {
+   "fieldname": "victims",
+   "fieldtype": "Table",
+   "label": "Victims",
+   "options": "Victims"
+  },
+  {
+   "fieldname": "perpetrators",
+   "fieldtype": "Table",
+   "label": "Perpetrators",
+   "options": "Perpetrators"
+  },
+  {
+   "fieldname": "suspects",
+   "fieldtype": "Table",
+   "label": "Suspects",
+   "options": "Suspects"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "documents_section",
+   "fieldtype": "Section Break",
+   "label": "Documents"
+  },
+  {
+   "fieldname": "attachments",
+   "fieldtype": "Attach",
+   "label": "Attachments"
+  },
+  {
+   "fieldname": "description_doc",
+   "fieldtype": "Data",
+   "label": "Description doc"
+  },
+  {
+   "fieldname": "column_break_6",
+   "fieldtype": "Column Break"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "acts_and_articles_section",
+   "fieldtype": "Section Break",
+   "label": "Acts and Articles"
+  },
+  {
+   "fieldname": "acts",
+   "fieldtype": "Table",
+   "label": "Acts",
+   "options": "Act"
+  },
+  {
+   "fieldname": "article",
+   "fieldtype": "Table",
+   "label": "Article",
+   "options": "Article Law"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "opposition_lawyer_section",
+   "fieldtype": "Section Break",
+   "label": "Opposition Lawyer"
+  },
+  {
+   "fieldname": "opposition_lawyer",
+   "fieldtype": "Table",
+   "label": "Opposition Lawyer",
+   "options": "Opposition"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "contact_person_details_section",
+   "fieldtype": "Section Break",
+   "label": "Contact Person Details"
+  },
+  {
+   "fieldname": "contact_person_details",
+   "fieldtype": "Table",
+   "label": "Contact Person Details",
+   "options": "Contact Person Details"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "history_section",
+   "fieldtype": "Section Break",
+   "label": "History"
+  },
+  {
+   "fieldname": "history",
+   "fieldtype": "Table",
+   "label": "History",
+   "options": "History"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-07-06 17:04:25.943853",
+ "modified_by": "Administrator",
+ "module": "Law Management",
+ "name": "Matter",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "search_fields": "matter_name",
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

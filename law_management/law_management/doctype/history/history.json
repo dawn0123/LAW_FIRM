@@ -1,0 +1,46 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "H.#####",
+ "creation": "2022-07-04 17:44:45.635314",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "result_date",
+  "result_type",
+  "result_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "result_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Result Date"
+  },
+  {
+   "fieldname": "result_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Result Type",
+   "options": "Win\nLost\nSettlement"
+  },
+  {
+   "fieldname": "result_description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Result Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-04 17:45:59.933821",
+ "modified_by": "Administrator",
+ "module": "Law Management",
+ "name": "History",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

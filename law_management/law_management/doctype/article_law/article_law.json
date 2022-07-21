@@ -1,0 +1,54 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "A.#####",
+ "creation": "2022-07-04 16:14:19.713580",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "article_no",
+  "article_name",
+  "type",
+  "article_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "article_no",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Article No",
+   "reqd": 1
+  },
+  {
+   "fieldname": "article_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Article Name"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Type",
+   "options": "Criminal\nCivil"
+  },
+  {
+   "fieldname": "article_description",
+   "fieldtype": "Long Text",
+   "in_list_view": 1,
+   "label": "Article Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-04 17:18:19.156532",
+ "modified_by": "Administrator",
+ "module": "Law Management",
+ "name": "Article Law",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}

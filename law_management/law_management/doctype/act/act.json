@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "Act.#####",
+ "creation": "2022-07-04 16:12:19.671840",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "act_no",
+  "act_type",
+  "act_name",
+  "year",
+  "link",
+  "act_description"
+ ],
+ "fields": [
+  {
+   "fieldname": "act_no",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Act No"
+  },
+  {
+   "fieldname": "act_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Act Type",
+   "options": "Criminal\nCivil"
+  },
+  {
+   "fieldname": "act_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Act Name"
+  },
+  {
+   "fieldname": "year",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Year"
+  },
+  {
+   "fieldname": "link",
+   "fieldtype": "Data",
+   "label": "Link"
+  },
+  {
+   "fieldname": "act_description",
+   "fieldtype": "Long Text",
+   "label": "Act Description"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-07-04 17:13:57.796239",
+ "modified_by": "Administrator",
+ "module": "Law Management",
+ "name": "Act",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC"
+}
