@@ -11,7 +11,7 @@ setup(
 	version=version,
 	description="Law Management, Legal Management, This module allows to manage lawyers,clients, matters(cases), trials and its invoicing.",
 	author="Solufy",
-	author_email="contact@solufy.in",
+	author_email="dawnstar0825@gmail.com",
 	packages=find_packages(),
 	zip_safe=False,
 	include_package_data=True,
